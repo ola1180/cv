@@ -272,3 +272,9 @@ summary {
 a {
   text-decoration: none;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(../img/main_bg_3.jpg);
+  background-size: cover;
+}

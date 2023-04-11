@@ -1,3 +1,9 @@
 a {
 	text-decoration: none;
 }
+
+body {
+	font-family: $mainFont;
+	background-image: url(../img/main_bg_3.jpg);
+	background-size: cover;
+}
