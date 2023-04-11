@@ -277,4 +277,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-image: url(../img/main_bg_3.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
