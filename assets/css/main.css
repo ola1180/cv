@@ -298,7 +298,6 @@ body .page .header .photo {
   width: 150px;
   height: 150px;
   position: relative;
-  outline: 1px solid red;
   margin: 0 auto;
 }
 body .page .header .photo img {
@@ -322,4 +321,5 @@ body .page .header .photo::after {
 body .page .content {
   width: 75%;
   height: 100%;
+  background-color: #fff;
 }
