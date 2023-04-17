@@ -1,0 +1,38 @@
+.hero .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hero .person .person-info {
+  width: 50%;
+  padding: 0 50px;
+}
+.hero .person .person-info h3 {
+  color: #9baab3;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0 0 5px 0;
+}
+.hero .person .person-info h1 {
+  font-size: 30px;
+  font-size: clamp(30px, 24.7216494845px + 1.6494845361vw, 46px);
+  margin: 0 0 30px 0;
+  color: #000;
+}
+.hero .person .person-info p {
+  color: #555555;
+  line-height: 1.5;
+}
+.hero .person .person-photo {
+  width: 50%;
+  overflow: hidden;
+}
+.hero .person .person-photo img {
+  width: 100%;
+  display: block;
+  translate: 40px -30px;
+  border-radius: 50% 0 50% 50%;
+}

@@ -1,0 +1,40 @@
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+}
+.stats .stat-item {
+  width: 33.3333333333%;
+  padding: 0 15px;
+}
+.stats .stat-item .outline {
+  padding: 20px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.stats .stat-item .outline i {
+  position: absolute;
+  font-size: 78px;
+  inset: 50% auto auto 0;
+  translate: -40% -50%;
+  z-index: 2;
+  color: #555555;
+  opacity: 0.3;
+}
+.stats .stat-item .outline .title {
+  text-align: right;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 15px 0;
+}
+.stats .stat-item .outline .number {
+  text-align: right;
+  color: #9baab3;
+  font-size: 36px;
+  margin: 0;
+}

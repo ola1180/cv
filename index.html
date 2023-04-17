@@ -11,45 +11,72 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <main class="page">
         <div class="header">
             <div class="photo"><img src="assets/img/main_photo.jpg" alt=""></div>
-            <h2>Alex Smith</h2>
-            <h3>Web Designer</h3>
+            <h2 class="name">Alex Smith</h2>
+            <h3 class="position">Web Designer</h3>
             <div class="social-media">
-                <a href="" class="twitter"></a>
-                <a href="" class="linkedin"></a>
-                <a href="" class="facebook"></a>
+                <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
             </div>
-            <p>+0123 123 456 789</p>
-            <p>alex@smith.com</p>
-            <button>Download CV</button>
+            <p class="phone"><a href="tel:666666666">666-666-666</a></p>
+            <p class="mail"><a href="mailto:example@mail.com">example@mail.com</a></p>
             <p class="copyright">© 2022 All rights reserved.</p>
         </div>
         <div class="content">
-            <div class="hero">
-                <div class="hero-content">
-                    <h3>Web Designer</h3>
-                    <h1>Alex Smith</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sequi quam tempora maiores
-                        praesentium! Molestiae placeat cumque fuga exercitationem quas, id officiis sit quidem! Animi
-                        reprehenderit similique molestias dicta odit.</p>
-                    <div class="hero-btns">
-                        <button class="cv-btn">Download CV</button>
-                        <button class="contact-btn">Contact</button>
+            <section class="hero section">
+                <div class="person">
+                    <div class="person-info">
+                        <h3>Web Designer</h3>
+                        <h1>Alex Smith</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat sequi quam tempora maiores
+                            praesentium! Molestiae placeat cumque fuga exercitationem quas, id officiis sit quidem!
+                            Animi
+                            reprehenderit similique molestias dicta odit.</p>
+                    </div>
+
+                    <div class="person-photo">
+                        <img src="assets/img/main_photo_1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="outline">
+                                <p class="title">Happy Clients</p>
+                                <p class="number">578</p>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="outline">
+                                <p class="title">Happy Clients</p>
+                                <p class="number">578</p>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="outline">
+                                <p class="title">Happy Clients</p>
+                                <p class="number">578</p>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
-                <div class="hero-photo">
-                    <img src="assets/img/main_photo_1.jpg" alt="">
-                </div>
-            </div>
 
+            </section>
         </div>
-        <nav class="navigation"></nav>
 
     </main>
 </body>

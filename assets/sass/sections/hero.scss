@@ -1,0 +1,49 @@
+@import "../variables";
+@import "../mixins";
+
+.hero {
+    .person {
+        display: flex;
+        align-items: center;
+
+        .person-info {
+            width: 50%;
+            padding: 0 50px;
+
+            h3 {
+                color: $personInfoHero;
+                font-weight: 300;
+                font-size: 16px;
+                margin: 0 0 5px 0;
+            }
+
+            h1 {
+                @include fluid-type(320px, 1290px, 30px, 46px);
+                margin: 0 0 30px 0;
+                color: $primaryTextColor;
+            }
+
+            p {
+                color: $secondaryTextColor;
+                line-height: 1.5;
+            }
+        }
+
+        .person-photo {
+            width: 50%;
+            overflow: hidden;
+
+
+
+            img {
+                width: 100%;
+                display: block;
+                translate: 40px -30px;
+                border-radius: 50% 0 50% 50%;
+
+
+            }
+        }
+    }
+
+}
