@@ -7,3 +7,5 @@ technology which I used in my project
 - SCSS
 - JS
 - GIT
+
+[check my cv](https://ola1180.github.io/cv/)
