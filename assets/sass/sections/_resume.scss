@@ -1,0 +1,41 @@
+.design-skills {
+    .skill {
+        margin: 10px 0;
+
+        .skill-top {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 0 10px 0;
+            align-content: center;
+
+            .skill-name {
+                font-size: 13px;
+                color: $primaryTextColor;
+                font-weight: 600;
+            }
+
+            .skill-percent {
+                color: $statsNumberColor;
+                font-size: 11px;
+            }
+
+
+        }
+
+        .skill-bottom {
+
+            .skill-progres {
+                width: 100%;
+                height: 6px;
+                background-color: $progressBarBg;
+                border-radius: 8px;
+
+                .bar {
+                    height: 100%;
+                    background-color: $progrssBarColor;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+}
