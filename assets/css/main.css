@@ -471,6 +471,70 @@ body .page .content .section {
   margin: 0;
 }
 
+.timeline {
+  margin: 30px 0 0 0;
+}
+.timeline .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.timeline .item .date-timeline {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
+  text-align: right;
+}
+.timeline .item .timeline-bar {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px;
+  position: relative;
+}
+.timeline .item .timeline-bar::after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #ebeef2;
+  position: absolute;
+  inset: 0 auto auto 50%;
+  -webkit-transform: -50% 0;
+          transform: -50% 0;
+}
+.timeline .item .timeline-bar .dot {
+  width: 21px;
+  height: 21px;
+  background-color: rgba(86, 184, 135, 0.3294117647);
+  border-radius: 50%;
+  position: relative;
+  margin: 10px auto 0 auto;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.timeline .item .timeline-bar .dot::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #56b887;
+  display: block;
+  z-index: 3;
+}
+.timeline .item .timeline-info {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+}
+
 .design-skills .skill {
   margin: 10px 0;
 }
