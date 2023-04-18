@@ -1,6 +1,6 @@
 # my cv
 
-technology which I used to my project
+technology which I used in my project
 
 - HTML
 - CSS
