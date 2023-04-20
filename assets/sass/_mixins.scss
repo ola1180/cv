@@ -10,3 +10,16 @@
     font-size: $min-value; // Fallback for older browsers
     font-size: clamp(#{if($min-value > $max-value, $max-value, $min-value)}, #{$calc-value}, #{if($min-value > $max-value, $min-value, $max-value)});
 }
+
+@mixin forTablet {
+    @media (max-width:1025px) {
+        @content;
+    }
+}
+
+@mixin forSmartphone {
+    @media (max-width:600px) {
+        @content;
+    }
+
+}

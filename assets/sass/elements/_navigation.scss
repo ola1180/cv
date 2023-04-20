@@ -1,0 +1,46 @@
+.side-menu {
+    position: absolute;
+    inset: 0 -72px auto auto;
+    width: 70px;
+    background-color: $ContentBgColor;
+    height: 100%;
+
+
+    ul {
+        padding: 0;
+
+        li {
+            list-style: none;
+
+            a {
+                color: $headerIconsBg;
+                display: block;
+                width: 30px;
+                font-size: 30px;
+                margin: 20px auto;
+
+                &.active {
+                    color: hsl(150, 69%, 48%);
+                }
+
+            }
+
+        }
+    }
+}
+
+.arrow {
+    position: absolute;
+    inset: auto -72px 0 auto;
+    width: 70px;
+
+    a {
+        font-size: 30px;
+        display: block;
+        width: 30px;
+        margin: 10px auto;
+        color: $headerIconsBg;
+
+    }
+
+}

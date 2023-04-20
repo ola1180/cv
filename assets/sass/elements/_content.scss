@@ -1,0 +1,26 @@
+.content {
+    width: 75%;
+    height: 100%;
+    position: relative;
+    background-color: $ContentBgColor;
+
+
+
+    .section {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        display: none;
+
+        &.active {
+            display: block;
+
+        }
+
+    }
+
+    @include forTablet {
+        width: 100%;
+    }
+}

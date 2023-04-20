@@ -1,0 +1,79 @@
+.header {
+    width: 25%;
+    height: 100%;
+    background-color: $headerBgColor;
+    padding: 40px;
+    text-align: center;
+    overflow: auto;
+
+    .photo {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        margin: 0 auto;
+
+
+        img {
+            border-radius: 50%;
+            height: 100%;
+            border: 2px solid $AvatarBorderColor;
+
+        }
+
+        &::after {
+            content: "";
+            border-radius: 50%;
+            height: 100%;
+            width: 100%;
+            background-color: $AvatarBorderColor;
+            opacity: 0.3;
+            display: block;
+            position: absolute;
+            z-index: -1;
+            inset: 0 0 auto auto;
+            translate: 6px 1px;
+        }
+    }
+
+    .name {
+        color: $headerDefaultTextColor;
+        @include fluid-type(320px, 1290px, 22px, 30px);
+        margin: 25px 0 10px 0;
+
+    }
+
+    .position {
+        color: $headerDefaultTextColor;
+        font-size: 16px;
+        margin: 0 0 10px 0;
+    }
+
+    .social-media {
+
+        background-color: $headerIconsBg;
+        border-radius: 25px;
+        padding: 8px 15px;
+        display: inline-flex;
+        gap: 20px;
+        margin: 20px 0;
+
+        a {
+            color: $headerDefaultTextColor;
+        }
+
+    }
+
+    .phone,
+    .mail {
+
+        a {
+            color: $headerDefaultTextColor;
+            font-weight: 300;
+            font-size: 15px;
+        }
+    }
+
+    @include forTablet {
+        display: none;
+    }
+}
